@@ -88,11 +88,28 @@ h1,h2,h3,h4,h5,h6 {
 	margin:0px;
 	background:none;
 	line-height:1.6em;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+	font-size: 90px;
+	font-family: 'Playfair Display', sans-serif;
+}
+h2{
+	font-size: 35px;
+}
+h3{
+	font-size: 25px;
+}
+h4{
+	font-size: 20px;
+}
+p{
+	font-size: 16px;
 }
 
 input,button,select,textarea{
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 textarea{
@@ -848,7 +865,7 @@ img{
 	font-size:60px;
 	font-weight:300;
 	line-height:1.2em;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .main-slider .text{
