@@ -94,6 +94,9 @@ h1,h2,h3,h4,h5,h6 {
 h1{
 	font-size: 90px;
 	font-family: 'Playfair Display', sans-serif;
+	text-align: center;
+	color: #000000;
+	font-weight: 800;
 }
 h2{
 	font-size: 35px;
@@ -3466,4 +3469,20 @@ img{
 .service-style-one .inner-box .more-link a:hover,
 .service-style-one .inner-box h3 a:hover{
 	color:#0074D9;
+}
+
+/***
+
+====================================================================
+	My changes
+====================================================================
+
+***/
+.title
+{
+	font-weight: 700;
+}
+.bg{
+	background-color: #fff200
+	
 }
