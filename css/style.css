@@ -25,7 +25,7 @@
 
 **********************************************/
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900');
 /*font-family: 'Poppins', sans-serif;*/
 
 @import url('font-awesome.css');
@@ -38,7 +38,7 @@
 
 
 
-/*** 
+/***
 
 ====================================================================
 	Reset
@@ -52,7 +52,7 @@
 	outline:none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Global Settings
@@ -61,11 +61,11 @@
  ***/
 
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:14px;
 	color:#777777;
 	line-height:1.7em;
-	font-weight:400;
+	font-weight:500;
 	background:#ffffff;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
@@ -101,11 +101,11 @@ textarea{
 
 p{
 	position:relative;
-	line-height:1.8em;	
+	line-height:1.8em;
 }
 
 .strike-through{
-	text-decoration:line-through;	
+	text-decoration:line-through;
 }
 
 .auto-container{
@@ -129,7 +129,7 @@ p{
 ul,li{
 	list-style:none;
 	padding:0px;
-	margin:0px;	
+	margin:0px;
 }
 
 .theme-btn{
@@ -142,7 +142,7 @@ ul,li{
 }
 
 .centered{
-	text-align:center;	
+	text-align:center;
 }
 
 /*List Style One*/
@@ -200,7 +200,7 @@ ul,li{
 }
 
 .list-style-two li:last-child .icon{
-	
+
 }
 
 /*Btn Style One*/
@@ -283,7 +283,7 @@ ul,li{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .social-icon-two li:hover .name{
@@ -297,7 +297,7 @@ ul,li{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;		
+	transition:all 300ms ease;
 	color:rgba(255,255,255,0.30);
 }
 
@@ -307,7 +307,7 @@ ul,li{
 
 
 .theme_color{
-	color:#1d1d1d;	
+	color:#1d1d1d;
 }
 
 .preloader{ position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:999999; background-color:#ffffff; background-position:center center; background-repeat:no-repeat; background-image:url(../images/icons/preloader.svg);}
@@ -315,10 +315,10 @@ ul,li{
 img{
 	display:inline-block;
 	max-width:100%;
-	height:auto;	
+	height:auto;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -346,7 +346,7 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;		
+	transition:all 300ms ease;
 }
 
 .scroll-to-top:hover{
@@ -354,7 +354,7 @@ img{
 	background:#1d1d1d;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Header style
@@ -364,7 +364,7 @@ img{
 
 .header-span{
 	position:relative;
-	height:120px;	
+	height:120px;
 }
 
 .main-header{
@@ -377,11 +377,11 @@ img{
 }
 
 .main-header .auto-container{
-	position:relative;	
+	position:relative;
 }
 
 .main-header .main-box{
-	position:relative;	
+	position:relative;
 }
 
 .main-header .main-box .outer-container{
@@ -403,7 +403,7 @@ img{
 }
 
 .fixed-header .main-box .logo-box{
-	padding:10px 0px;	
+	padding:10px 0px;
 }
 
 .main-header .main-box .logo-box .logo img{
@@ -413,7 +413,7 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .main-header .btn-outer{
@@ -455,7 +455,7 @@ img{
 }
 
 .main-menu .navbar-collapse{
-	padding:0px;	
+	padding:0px;
 }
 
 .main-menu .navigation{
@@ -476,7 +476,7 @@ img{
 }
 
 .fixed-header .main-menu .navigation > li{
-	padding:0px 0px;	
+	padding:0px 0px;
 }
 
 .main-menu .navigation > li > a{
@@ -534,7 +534,7 @@ img{
 
 .main-menu .navigation > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li{
@@ -543,7 +543,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li > a{
@@ -579,7 +579,7 @@ img{
 	font-size:16px;
 	font-weight:normal;
 	text-align:center;
-	z-index:5;	
+	z-index:5;
 }
 
 .main-menu .navigation > li > ul > li > ul{
@@ -600,7 +600,7 @@ img{
 
 .main-menu .navigation > li > ul > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li > ul > li{
@@ -609,7 +609,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li > ul > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li > ul > li > a{
@@ -645,11 +645,11 @@ img{
 	font-size:16px;
 	font-weight:normal;
 	text-align:center;
-	z-index:5;	
+	z-index:5;
 }
 
 .main-menu .navigation > li > ul > li > ul > li.dropdown:hover > a:after{
-	color:#ffffff;	
+	color:#ffffff;
 }
 
 .main-menu .navigation > li.dropdown:hover > ul{
@@ -659,7 +659,7 @@ img{
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;		
+	-o-transition:all 500ms ease;
 }
 
 .main-menu .navigation li > ul > li.dropdown:hover > ul{
@@ -669,7 +669,7 @@ img{
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;		
+	-o-transition:all 500ms ease;
 }
 
 .main-menu .navbar-collapse > ul li.dropdown .dropdown-btn{
@@ -688,7 +688,7 @@ img{
 	display:none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Hidden Sidebar style
@@ -711,7 +711,7 @@ img{
 }
 
 .hidden-bar .mCSB_inside > .mCSB_container{
-	margin-right:0px;	
+	margin-right:0px;
 }
 
 .hidden-bar.right-align {
@@ -719,7 +719,7 @@ img{
 }
 
 .hidden-bar.right-align.visible-sidebar{
-	right:0px;	
+	right:0px;
 }
 
 .hidden-bar.right-align {
@@ -774,7 +774,7 @@ img{
 
 .hidden-bar .logo img{
 	display:inline-block;
-	max-width:100%;	
+	max-width:100%;
 }
 
 .hidden-bar .content-box{
@@ -811,7 +811,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Main Slider style
@@ -871,11 +871,11 @@ img{
 
 .main-slider .tp-bannertimer,
 .main-slider .tp-bullets{
-	display:none !important;	
+	display:none !important;
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Portfolio Section
@@ -993,7 +993,7 @@ img{
 	font-size:16px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Footer
@@ -1129,7 +1129,7 @@ img{
 
 .gallery-block-two .image-box{
 	position:relative;
-	display:block;	
+	display:block;
 }
 
 .gallery-block-two .image-box img{
@@ -1210,7 +1210,7 @@ img{
     margin-bottom: 6px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Work Banner
@@ -1244,7 +1244,7 @@ img{
 	font-weight:300;
 }
 
-/*** 
+/***
 
 ====================================================================
 	FullWidth Banner
@@ -1324,10 +1324,10 @@ img{
 .fullwidth-block-section .outer-box .image-column img,
 .fullwidth-block-section-two .outer-box .image-column img{
 	display:block;
-	width:100%;	
+	width:100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	FullWidth Banner
@@ -1404,7 +1404,7 @@ img{
 	float:left;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Portfolio Single Section
@@ -1532,7 +1532,7 @@ img{
 	margin-left:-13px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Portfolio Center Section
@@ -1600,7 +1600,7 @@ img{
 	padding-bottom:70px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Portfolio FullWidth Section
@@ -1677,7 +1677,7 @@ img{
 	padding-right:60px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Section
@@ -1771,7 +1771,7 @@ img{
 	background-color:#f1f1f1;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section
@@ -2038,7 +2038,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Team Section
@@ -2124,7 +2124,7 @@ img{
 	bottom:0px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Clients Section
@@ -2175,7 +2175,7 @@ img{
 	border:2px solid #f1f1f1;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Full Screen Section
@@ -2249,7 +2249,7 @@ img{
 	float:right;
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Section
@@ -2280,7 +2280,7 @@ img{
 	bottom:0px;
 	margin-left:-25px;
 	width:50px;
-	border-bottom:2px solid #333333;	
+	border-bottom:2px solid #333333;
 }
 
 .news-section .title-box .subtitle{
@@ -2291,7 +2291,7 @@ img{
 	text-transform:uppercase;
 	font-weight:500;
 	color:#dddddd;
-	margin-bottom:15px;	
+	margin-bottom:15px;
 }
 
 .news-section .title-box .subtitle:before{
@@ -2301,7 +2301,7 @@ img{
 	top:50%;
 	margin-top:1px;
 	width:50px;
-	border-bottom:1px solid #dddddd;	
+	border-bottom:1px solid #dddddd;
 }
 
 .news-section .title-box .subtitle:after{
@@ -2311,7 +2311,7 @@ img{
 	top:50%;
 	margin-top:1px;
 	width:50px;
-	border-bottom:1px solid #dddddd;	
+	border-bottom:1px solid #dddddd;
 }
 
 .news-section .title-box h2{
@@ -2319,7 +2319,7 @@ img{
 	font-size:36px;
 	font-weight:700;
 	color:#333333;
-	line-height:1.2em;	
+	line-height:1.2em;
 	margin-bottom:10px;
 }
 
@@ -2329,7 +2329,7 @@ img{
 	font-weight:500;
 	color:#888888;
 	line-height:1.4em;
-	text-transform:uppercase;		
+	text-transform:uppercase;
 }
 
 
@@ -2452,7 +2452,7 @@ img{
 	color:#222222;
 }
 
-/*** 
+/***
 
 ====================================================================
 	News List Section
@@ -2602,7 +2602,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Sidebar Page Container
@@ -2720,7 +2720,7 @@ img{
 	font-weight:400;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comments Area
@@ -2769,7 +2769,7 @@ img{
 }
 
 .sidebar-page-container .comments-area .comment-box:hover{
-	border-color:#222222;	
+	border-color:#222222;
 }
 
 .sidebar-page-container .comments-area .comment{
@@ -2817,7 +2817,7 @@ img{
 .sidebar-page-container .comments-area .comment-info{
 	color:#3e5773;
 	line-height:24px;
-	font-size:13px;	
+	font-size:13px;
 }
 
 .sidebar-page-container .comments-area .comment-box strong{
@@ -2854,7 +2854,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Comment Form
@@ -2956,7 +2956,7 @@ img{
 
 .sidebar .search-box .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .sidebar .search-box .form-group input[type="text"],
@@ -3184,7 +3184,7 @@ img{
 	margin-bottom:18px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	contact Form
@@ -3266,7 +3266,7 @@ img{
 .contact-form input.error,
 .contact-form select.error,
 .contact-form textarea.error{
-	border-color:#ff0000 !important;	
+	border-color:#ff0000 !important;
 }
 
 .contact-form label.error{
@@ -3276,11 +3276,11 @@ img{
 	text-transform:uppercase;
 	font-size:11px;
 	color:#ff0000;
-	font-weight:500;	
+	font-weight:500;
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Map Section Style
@@ -3311,7 +3311,7 @@ img{
 	height:525px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section
@@ -3338,7 +3338,7 @@ img{
 	bottom:0px;
 	margin-left:-25px;
 	width:50px;
-	border-bottom:2px solid #333333;	
+	border-bottom:2px solid #333333;
 }
 
 .services-section .title-box .subtitle{
@@ -3349,7 +3349,7 @@ img{
 	text-transform:uppercase;
 	font-weight:500;
 	color:#dddddd;
-	margin-bottom:15px;	
+	margin-bottom:15px;
 }
 
 .services-section .title-box .subtitle:before{
@@ -3359,7 +3359,7 @@ img{
 	top:50%;
 	margin-top:1px;
 	width:50px;
-	border-bottom:1px solid #dddddd;	
+	border-bottom:1px solid #dddddd;
 }
 
 .services-section .title-box .subtitle:after{
@@ -3369,7 +3369,7 @@ img{
 	top:50%;
 	margin-top:1px;
 	width:50px;
-	border-bottom:1px solid #dddddd;	
+	border-bottom:1px solid #dddddd;
 }
 
 .services-section .title-box h2{
@@ -3377,7 +3377,7 @@ img{
 	font-size:36px;
 	font-weight:700;
 	color:#333333;
-	line-height:1.2em;	
+	line-height:1.2em;
 	margin-bottom:10px;
 }
 
@@ -3387,18 +3387,18 @@ img{
 	font-weight:500;
 	color:#888888;
 	line-height:1.4em;
-	text-transform:uppercase;		
+	text-transform:uppercase;
 }
 
 .service-style-one{
 	position:relative;
-	margin-bottom:50px;	
+	margin-bottom:50px;
 }
 
 .service-style-one .inner-box{
 	position:relative;
 	display:block;
-	padding-left:60px;	
+	padding-left:60px;
 }
 
 .service-style-one .inner-box .icon-box{
@@ -3407,7 +3407,7 @@ img{
 	top:0px;
 	line-height:1.1em;
 	font-size:38px;
-	color:#333333;	
+	color:#333333;
 }
 
 .service-style-one .inner-box h3{
@@ -3417,17 +3417,17 @@ img{
 	text-transform:uppercase;
 	line-height:1.4em;
 	color:#333333;
-	margin-bottom:12px;	
+	margin-bottom:12px;
 }
 
 .service-style-one .inner-box h3 a{
-	color:#333333;	
+	color:#333333;
 }
 
 .service-style-one .inner-box .text{
 	position:relative;
 	line-height:1.7em;
-	margin-bottom:25px;	
+	margin-bottom:25px;
 }
 
 .service-style-one .inner-box .more-link{
@@ -3448,5 +3448,5 @@ img{
 
 .service-style-one .inner-box .more-link a:hover,
 .service-style-one .inner-box h3 a:hover{
-	color:#0074D9;	
+	color:#0074D9;
 }
