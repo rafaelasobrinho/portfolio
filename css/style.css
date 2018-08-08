@@ -3483,6 +3483,13 @@ img{
 	font-weight: 700;
 }
 .bg{
-	background-color: #fff200
-	
+	position:relative;
+	top:-132px;
+
+}
+.container-fluid{
+	width: 300px;
+}
+.img{
+	position: relative;
 }
