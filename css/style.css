@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight:normal;
 	margin:0px;
 	background:none;
-	line-height:1.6em;
+	line-height:1.2em;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -99,7 +99,7 @@ h1{
 	font-weight: 800;
 }
 h2{
-	font-size: 35px;
+	font-size: 25px;
 }
 h3{
 	font-size: 25px;
@@ -1025,7 +1025,7 @@ img{
 	position:relative;
 	padding-top:45px;
 	padding-bottom:10px;
-	background-color:#fcfbfb;
+	background-color:#1d1d1d;
 }
 
 .main-footer .inner-container{
@@ -1040,7 +1040,7 @@ img{
 
 .main-footer .mail-info{
 	position:relative;
-	color:#111111;
+	color:#666666;
 	font-size:14px;
 	line-height:2.5em;
 	margin-bottom:25px;
