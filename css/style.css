@@ -63,7 +63,7 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:14px;
-	color:#777777;
+	color:#000;
 	line-height:1.7em;
 	font-weight:500;
 	background:#ffffff;
@@ -1754,10 +1754,10 @@ img{
 
 .about-section .content-column .text p{
 	position:relative;
-	color:#777777;
-	font-size:14px;
-	font-weight:300;
-	line-height:1.8em;
+	color:#000;
+	font-size:1.6rem;
+	font-weight:500;
+	line-height:1.5em;
 	margin-bottom:20px;
 }
 
