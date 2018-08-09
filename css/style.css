@@ -393,7 +393,7 @@ img{
 	top:0px;
 	z-index:999;
 	width:100%;
-	background:#fcfbfb;
+	/*background:#fcfbfb;*/
 }
 
 .main-header .auto-container{
@@ -3500,7 +3500,7 @@ img{
 }
 /* Footer align */
 .text{
-    padding-top: 20%;
+    padding-top: 15%;
 }
 /* Footer buttom */
 .cv-buttom{
