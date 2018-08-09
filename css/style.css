@@ -3478,18 +3478,59 @@ img{
 ====================================================================
 
 ***/
+/* Portfolio in bold */
 .title
 {
 	font-weight: 700;
 }
+/* yellow bg */
 .bg{
 	position:relative;
 	top:-132px;
-
 }
 .container-fluid{
 	width: 300px;
 }
 .img{
 	position: relative;
+}
+/* Footer full screen */
+.foot{
+    min-height: 100vh;
+}
+/* Footer align */
+.text{
+    padding-top: 20%;
+}
+/* Footer buttom */
+.cv-buttom{
+    border-color: #ffc301;
+    border-top-color: rgb(255, 195, 1);
+    border-right-color: rgb(255, 195, 1);
+    border-bottom-color: rgb(255, 195, 1);
+    border-left-color: rgb(255, 195, 1);
+    border-width: 0.05555555555555555rem;
+    border-top-width: 0.0555556rem;
+    border-right-width: 0.0555556rem;
+    border-bottom-width: 0.0555556rem;
+    border-left-width: 0.0555556rem;
+    border-radius: 0rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 10px;
+}
+.bt{
+    text-align: center;
+}
+.color-bt{
+    color:#ffc301; 
+    font-size: 2.5rem;
+}
+.color-link{
+    color:#666666;
+    font-size: 2rem;
 }
