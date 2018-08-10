@@ -121,7 +121,8 @@ textarea{
 
 p{
 	position:relative;
-	line-height:1.8em;
+	line-height:1.2em;
+	line-height:1.2em;
 }
 
 .strike-through{
@@ -1788,8 +1789,8 @@ img{
 	line-height:1.6em;
 	margin-left:110px;
 	display:inline-block;
-	background-color:#ffc301;
-    border-radius: 90px;
+	border-radius: 90px;
+    background:url(../images/fundo-amarelo.svg) center center no-repeat;
 }
 
 /***
@@ -3489,7 +3490,7 @@ img{
 	position:relative;
 	top:-103px;;
 }
-.container-fluid{
+.titulo{
 	width: 300px;
 }
 .img{
@@ -3538,4 +3539,15 @@ img{
 .color-link{
     color:#666666;
     font-size: 2rem;
+}
+.text-about div h1{
+    color:#444444;
+}
+.text-about div p{
+    color:#444444;
+}
+fundo{
+    content:"";
+    background-image: url(fundo-amarelo.svg);
+    
 }
