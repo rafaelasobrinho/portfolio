@@ -1708,7 +1708,7 @@ img{
 
 .about-section{
 	position:relative;
-	padding:95px 0px 100px;
+	/*padding:95px 0px 100px;*/
 }
 
 .about-section .image{
@@ -1783,7 +1783,7 @@ img{
 
 .about-section .blockquote-text{
 	position:relative;
-	padding:68px 80px;
+	padding:45px 80px;
 	color:#414141;
 	font-size:18px;
 	line-height:1.6em;
@@ -3546,8 +3546,28 @@ img{
 .text-about div p{
     color:#444444;
 }
-fundo{
-    content:"";
-    background-image: url(fundo-amarelo.svg);
-    
+.expertice{
+    background-color: #7A0E3D;
+    border-radius: 30px;
+    padding: 60px;
+    z-index: -1;
+}
+.study{
+    background-color: #FE5522;
+    width: 100%;
+    padding: 140px;
+    z-index: -1;
+    top: -107px;
+    position: relative;
+}
+section .blockquote-text{
+    position:relative;
+	padding:45px 80px;
+	color:#414141;
+	font-size:18px;
+	line-height:1.6em;
+	margin-left:110px;
+	display:inline-block;
+	border-radius: 90px;
+    background:url(../images/fundo-amarelo.svg) center center no-repeat;
 }
