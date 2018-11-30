@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5,h6 {
 
 h1{
 	font-size: 7rem;
-	font-family: 'Playfair Display', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
 	color: #000000;
 	font-weight: 800;
@@ -3578,7 +3578,7 @@ section .blockquote-text{
     height: 55%;
     opacity: 0.75;
     z-index: -1;
-    background: rgb(255, 211, 0);
+    /*background: rgb(255, 211, 0);*/
 }
 .menu_item{
     color: #ffffff;
