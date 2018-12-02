@@ -868,7 +868,7 @@ img{
 	position:relative;
 	color:#000000;
 	font-size:60px;
-	font-weight:300;
+	/*font-weight:300;*/
 	line-height:1.2em;
 	font-family: 'Source Sans Pro', sans-serif;
 }
