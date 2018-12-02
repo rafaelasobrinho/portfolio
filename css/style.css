@@ -862,6 +862,7 @@ img{
 	color:#000000;
 	line-height:1.7em;
 	letter-spacing:4px;
+    display: none
     
 }
 
@@ -872,7 +873,7 @@ img{
 	/*font-weight:300;*/
 	line-height:1.2em;
 	font-family: 'Source Sans Pro', sans-serif;
-    
+    padding-top: 120px;    
 }
 
 .main-slider .text{
