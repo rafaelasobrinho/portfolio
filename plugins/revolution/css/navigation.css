@@ -1935,6 +1935,7 @@ website:    http://www.themepunch.com
 -----------------------------------------------------------------------------*/
 /* ARROWS */
 .metis.tparrows {
+    display: none;
   background:#fff;
   padding:10px;
   transition:all 0.3s;
