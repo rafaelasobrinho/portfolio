@@ -22,7 +22,7 @@
 19. Contact Form
 20. Map Section
 21. Our Services
-
+22. Inclued itens
 **********************************************/
 
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900');
@@ -3600,4 +3600,145 @@ section .blockquote-text{
 }
 svg{
     fill:#000;
+}
+
+/* CSS do template do banner */
+
+/* -- Header */
+
+.page-wrapper header {
+    position: fixed;
+    z-index: 999;
+    padding: 1.875rem;
+    display: table;
+    width: 100%;
+    pointer-events: none;
+}
+
+.page-wrapper header .brand {
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events: auto;
+}
+
+.page-wrapper header nav {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.page-wrapper header nav .navigation li {
+    display: inline-block;
+}
+
+.page-wrapper header nav .navigation li a {
+    padding: .3125rem .375rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .75rem;
+    pointer-events: auto;
+}
+/* -- Page Wrapper */
+
+.page-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+/* -- Content Wrapper */
+
+.content-wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.content-wrapper .content-main {
+    text-align: center;
+    z-index: 1;
+    pointer-events: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content-wrapper .content-main h1 {
+    margin-bottom: 2.5rem;
+}
+
+.content-wrapper .content-main h2 {
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.content-wrapper .content-main form {
+    pointer-events: auto;
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
+}
+
+.content-wrapper .content-main .container {
+    z-index: 1;
+    position: relative;
+}
+.content-wrapper .content-main .container {
+    z-index: 1;
+    position: relative;
+}
+.background-wrapper, .active-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.background-wrapper img, .active-slider img {
+    width: 100%;
+    height: auto;
+}
+
+.background-wrapper .map, .active-slider .map {
+    height: 100%;
+}
+
+.background-wrapper .background-color, .active-slider .background-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.background-wrapper .background-color.background-color-white,
+.active-slider .background-color.background-color-white {
+    background-color: #fff;
+}
+
+.background-wrapper .background-color.background-color-black,
+.active-slider .background-color.background-color-black {
+    background-color: #000;
+}
+#background-content {
+    height: 100%;
+    width: 100%;
+}
+/* -- Parallax */
+
+.parallax {
+    position: absolute;
+    bottom: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.parallax img {
+    max-width: inherit;
+    width: auto;
+    position: absolute;
+    bottom: 0;
 }
