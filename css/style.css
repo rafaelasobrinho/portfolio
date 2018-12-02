@@ -440,8 +440,8 @@ img{
 .main-header .btn-outer{
 	position:absolute;
 	right:0px;
-	top:50%;
-	margin-top:-17px;
+	top:25%;
+	/*margin-top:-17px;*/
 }
 
 .main-header .nav-toggler{
