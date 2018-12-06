@@ -3590,10 +3590,8 @@ img{
     border: 1px solid #ecb2b2;
     /*border-radius: 3px;*/
 }
-.top{
+.space{
     padding-top: 20px;
-}
-.bottom{
     padding-bottom: 40px;
 }
 
