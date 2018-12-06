@@ -3586,11 +3586,9 @@ img{
 .text-about div p{
     color:#444444;
 }
-.text-yellow p{
-    color:#444444;
-}
-.text-yellow h1{
-    color:#444444;
+.line{
+    border: 3px solid #ecb2b2;
+    border-radius: 3px;
 }
 
 
