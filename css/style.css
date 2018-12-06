@@ -1785,7 +1785,7 @@ img{
 	background:#f1f1f1 url(../images/icons/quote-icon.png) center center no-repeat;
 }*/
 
-.about-section .blockquote-text{
+/*.about-section .blockquote-text{
 	position:relative;
 	padding:45px 80px;
 	color:#414141;
@@ -1795,7 +1795,7 @@ img{
 	display:inline-block;
 	border-radius: 90px;
     /*background:url(../images/fundo-amarelo.svg) center center no-repeat;*/
-}
+}*/
 
 /***
 
@@ -3552,7 +3552,7 @@ img{
     top: -107px;
     position: relative;
 }*/
-section .blockquote-text{
+/*section .blockquote-text{
     position:relative;
 	padding:45px 80px;
 	color:#414141;
@@ -3562,7 +3562,7 @@ section .blockquote-text{
 	display:inline-block;
 	border-radius: 90px;
     /*background:url(../images/fundo-amarelo.svg) center center no-repeat;*/
-}
+}*/
 .details_title::before {
     content: "";
     position: absolute;
