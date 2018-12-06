@@ -3605,5 +3605,8 @@ img{
     padding-top: 20px;
     padding-bottom: 40px;
 }
-
+.about-section div img {
+    width: 400px;
+    float: right;
+}
 
