@@ -868,14 +868,13 @@ img{
     
 }
 
-.main-slider h1{
+.main-slider h1 h3{
 	position:relative;
 	color:#015298;
-	/*font-size:60px;*/
-	/*font-weight:300;*/
 	line-height:1em;
 	font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 215px;    
+    padding-top: 215px;
+    text-align: left;
 }
 
 .main-slider .text{
