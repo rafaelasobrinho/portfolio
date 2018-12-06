@@ -866,7 +866,7 @@ img{
     
 }
 
-.main-slider h1, .main-slider h3{
+.main-slider h1{
 	position:relative;
 	color:#015298;
 	line-height:1em;
@@ -874,7 +874,13 @@ img{
     padding-top: 215px;
     text-align: left;
 }
-
+.main-slider h3{
+	position:relative;
+	color:#015298;
+	line-height:1em;
+	font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+}
 .main-slider .text{
 	position:relative;
 	font-size:18px;
