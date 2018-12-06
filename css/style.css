@@ -1826,12 +1826,9 @@ img{
 }
 
 .services-section .content-column h2{
-	position:relative;
-	color:#111111;
-	font-weight:500;
-	font-size:39px;
-	line-height:1.2em;
-	margin-bottom:20px;
+    color: #444444;
+    font-weight: 700;
+    text-align: center;
 }
 
 .services-section .content-column .text{
