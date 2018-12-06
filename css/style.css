@@ -3575,8 +3575,9 @@ img{
     /*background: rgb(255, 211, 0);*/
 }
 .menu_item{
-    color: #ffffff;
+    color: #015298;
     text-transform: capitalize;
+    font-weight: 900;
     
 }
 /* About page */
