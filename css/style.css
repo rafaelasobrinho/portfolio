@@ -1761,7 +1761,11 @@ img{
 	position:relative;
 	margin-bottom:40px;
 }
-
+.about-section .content-column .text h2{
+	position:relative;
+	margin-bottom:40px;
+    color:#444444;
+}
 .about-section .content-column .text p{
 	position:relative;
 	color:#444444;
