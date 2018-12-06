@@ -722,7 +722,7 @@ img{
 	top: 0;
 	width: 320px;
 	height: 100%;
-	background: #1D1D1D;
+	background: #d6cccc;
 	z-index: 9999;
 	transition: all 700ms ease;
 	-webkit-transition: all 700ms ease;
