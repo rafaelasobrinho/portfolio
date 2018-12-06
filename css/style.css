@@ -2592,9 +2592,6 @@ img{
 	font-weight:300;
 	margin-bottom:20px;
 }
-
-
-
 .news-block-two .inner-box .content-column .inner-column .post-meta{
 	position:relative;
 }
@@ -3017,12 +3014,6 @@ img{
 	line-height:100%;
 	background:none;
 }
-
-
-
-
-
-
 .categories-blog .inner-box{
 	position:relative;
 }
@@ -3547,12 +3538,12 @@ img{
 .text-about div p{
     color:#444444;
 }
-.expertice{
+/*.expertice{
     background-color: #7A0E3D;
     border-radius: 30px;
     padding: 60px;
     z-index: -1;
-}
+}*/
 .study{
     background-color: #FE5522;
     width: 100%;
