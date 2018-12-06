@@ -1734,6 +1734,7 @@ img{
 .about-section .title-column{
 	position:relative;
 	margin-bottom:40px;
+    margin-top: 40px;
 }
 
 .about-section .title-column h2{
