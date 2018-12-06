@@ -3570,7 +3570,7 @@ section .blockquote-text{
 	margin-left:110px;
 	display:inline-block;
 	border-radius: 90px;
-    background:url(../images/fundo-amarelo.svg) center center no-repeat;
+    /*background:url(../images/fundo-amarelo.svg) center center no-repeat;*/
 }
 .details_title::before {
     content: "";
