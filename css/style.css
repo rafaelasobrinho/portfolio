@@ -859,8 +859,6 @@ img{
 
 .main-slider .title{
 	position:relative;
-	/*font-size:30px;*/
-	/*font-weight:300;*/
 	color:#000000;
 	line-height:1.7em;
 	letter-spacing:4px;
@@ -868,7 +866,7 @@ img{
     
 }
 
-.main-slider h1 h3{
+.main-slider h1, .main-slider h3{
 	position:relative;
 	color:#015298;
 	line-height:1em;
