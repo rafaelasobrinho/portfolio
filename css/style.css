@@ -1857,6 +1857,13 @@ img{
 .services-block{
 	position:relative;
 	margin-bottom:30px;
+    width: 22.5%;
+    margin: 16px 1.25%;
+    border: 1px dashed rgba(0, 24, 67, 0.3);
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    overflow: hidden;
 }
 
 .services-block .inner{
@@ -3492,7 +3499,7 @@ img{
 .foot{
     min-height: 100vh;
 }
-/* Footer align */
+/* Footer align Não sei se precisa */
 .text{
     padding-top: 15%;
 }
