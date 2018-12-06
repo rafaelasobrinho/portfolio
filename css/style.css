@@ -62,7 +62,7 @@
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size:14px;
+	font-size:16px;
 	color:#000;
 	line-height:1.7em;
 	font-weight:500;
@@ -92,23 +92,23 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1{
-	font-size: 7rem;
+	font-size: 5.5rem;
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
 	color: #000000;
 	font-weight: 800;
 }
 h2{
-	font-size: 2.5rem;
+	font-size: 3.5rem;
 }
 h3{
-	font-size: 1.8rempx;
+	font-size: 2.0rempx;
 }
 h4{
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 p{
-	font-size: 14px;
+	font-size: 16px;
 }
 
 input,button,select,textarea{
