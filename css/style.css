@@ -869,10 +869,10 @@ img{
 
 .main-slider h1{
 	position:relative;
-	color:#d6cccc;
+	color:#015298;
 	/*font-size:60px;*/
 	/*font-weight:300;*/
-	line-height:1.2em;
+	line-height:1rem;
 	font-family: 'Source Sans Pro', sans-serif;
     padding-top: 215px;    
 }
