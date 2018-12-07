@@ -3548,31 +3548,6 @@ img{
 .text-about div p{
     color:#444444;
 }
-/*.expertice{
-    background-color: #7A0E3D;
-    border-radius: 30px;
-    padding: 60px;
-    z-index: -1;
-}
-.study{
-    background-color: #FE5522;
-    width: 100%;
-    padding: 140px;
-    z-index: -1;
-    top: -107px;
-    position: relative;
-}*/
-/*section .blockquote-text{
-    position:relative;
-	padding:45px 80px;
-	color:#414141;
-	font-size:18px;
-	line-height:1.6em;
-	margin-left:110px;
-	display:inline-block;
-	border-radius: 90px;
-    /*background:url(../images/fundo-amarelo.svg) center center no-repeat;*/
-}*/
 .details_title::before {
     content: "";
     position: absolute;
@@ -3588,7 +3563,6 @@ img{
     color: #015298;
     text-transform: capitalize;
     font-weight: 900;
-    
 }
 /* About page */
 .text-about div h1{
@@ -3599,7 +3573,6 @@ img{
 }
 .line{
     border: 1px solid #ecb2b2;
-    /*border-radius: 3px;*/
 }
 .space{
     padding-top: 20px;
