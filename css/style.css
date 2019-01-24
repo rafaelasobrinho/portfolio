@@ -3591,10 +3591,9 @@ img{
     margin-bottom: 3em;
 }
 .is-active {
-    box-shadow: 0 20px 5px -10px rgba(#000, 0.4);
-    -webkit-box-shadow: 9px 29px 89px 3px rgba(112,112,112,0.78);
-    -moz-box-shadow: 9px 29px 89px 3px rgba(112,112,112,0.78);
-    box-shadow: 9px 29px 89px 3px rgba(112,112,112,0.78);
+    -webkit-box-shadow: 9px 29px 89px -16px rgba(112,112,112,0.78);
+    -moz-box-shadow: 9px 29px 89px -16px rgba(112,112,112,0.78);
+    box-shadow: 9px 29px 89px -16px rgba(112,112,112,0.78);
     transform: translateY(-10px);
 }
 .animation{
