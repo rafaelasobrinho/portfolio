@@ -1862,15 +1862,15 @@ img{
 }
 
 .services-block{
-	position:relative;
-	margin-bottom:30px;
-    width: 22.5%;
-    margin: 16px 1.25%;
-    border: 1px dashed rgba(0, 24, 67, 0.3);
+    position: relative;
+    margin-bottom: 30px;
+    /*width: 42.5%;*/
+    /*margin: 16px 1.25%;*/
+    /*border: 1px dashed rgba(0, 24, 67, 0.3);*/
     border-radius: 8px;
     font-size: 14px;
     overflow: hidden;
-    height: 95px;
+    /*height: 140px;*/
 }
 
 .services-block .inner{
@@ -3599,4 +3599,19 @@ img{
 .animation{
     transition: all .5s ease;
     cursor: pointer;
+}
+/* Responsive */
+@media only screen and (max-width: 767px){
+    .services-block .inner {
+        display: contents;
+    }
+
+    .services-block {
+        width: 42.5%;
+        height: 140px;
+    }
+}
+/* About */
+.border_buttom{
+    border: 1px dashed rgba(0, 24, 67, 0.3);
 }
