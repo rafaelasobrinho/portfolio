@@ -1,6 +1,6 @@
 (function($) {
 	//Add for me
-    $(".title").hover(function(){
+    $(".animation").hover(function(){
   $(this).toggleClass("is-active");
 });
   //End
