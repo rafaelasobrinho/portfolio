@@ -552,7 +552,7 @@
 }
 }
 @media only screen and (min-width: 767px) {
-    .main-menu .navigation > li > a {
+    .main-menu .hidden > li > a {
         display: none;
 }
 }
