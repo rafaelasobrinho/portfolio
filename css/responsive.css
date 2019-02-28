@@ -546,13 +546,19 @@
 	.hidden-bar{
 		width:300px;
 	}
+    
+}
+
+@media only screen and (max-width: 767px) {
     .top-space {
         margin-bottom: 0;
         margin-top: 0;
 }
 }
+
+
 @media only screen and (min-width: 767px) {
-    .main-menu .hidden > li > a {
+    .main-menu .hid > li > a {
         display:;
 }
 }
