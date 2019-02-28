@@ -364,12 +364,12 @@
 	.main-menu .navbar-collapse > .navigation > li > a,
 	.main-menu .navbar-collapse > .navigation > li > ul > li > a,
 	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a{
-		padding:10px 15px !important;
+		padding:20px 15px !important;
 		line-height:22px;
 		color:#ffffff;
-		background:#2c2c2c;
-		text-transform:capitalize;
-		text-align:left;
+		background:#084982;
+		text-transform:uppercase;
+		text-align:center;
 	}
 	
 	.main-menu .navbar-collapse > .navigation > li > a:hover,
