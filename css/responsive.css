@@ -266,11 +266,11 @@
 	.main-menu .navbar-header .navbar-toggle{
 		display:inline-block;
 		z-index:12;
-		border:1px solid #111111;
+		border:1px solid #084982;
 		float:none;
-		margin:0px 0px 0px 0px;
+		margin:8px 0px 0px 0px;
 		border-radius:0px;
-		background:#111111;
+		background:#084982;
 	}
 	
 	.main-menu .navbar-header .navbar-toggle .icon-bar{
